@@ -133,11 +133,12 @@ JavaScript is with the `+` operator, like so:
 
 ```js
 "High " + "five!";
-//=> "High five!"
+/> "High five!"
 
 "We" + ' ' + `can` + " " + 'concat' + `enate` + " as many strings " + 'as our heart ' + `desires.`;
 //=> "We can concatenate as many strings as our heart desires."
 ```
+
 
 Since our `currentUser` variable contains a string, we can concatenate it to the
 end of `'Welcome to Flatbook, '` to dynamically create a new string based on
